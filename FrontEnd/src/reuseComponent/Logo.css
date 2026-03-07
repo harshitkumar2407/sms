@@ -1,0 +1,11 @@
+.logoImage{
+    display: flex;
+    width: 50px;
+}
+
+.logo{
+    align-items: center;
+    display: flex;
+    gap: 1rem;
+    border-radius: 5rem;
+}
