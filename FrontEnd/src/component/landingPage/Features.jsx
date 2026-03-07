@@ -5,9 +5,9 @@ import FeatureCards from "./FeatureCards";
 export default function Features() {
   return (
     <div className="container text-center mt-5">
-      <h2 className="mb-5">Key Features</h2>
+      <h3 className="mb-5">Key Features</h3>
 
-      <div className="row g-4">
+      <div className="row g-3 m-5 p-5">
         <div className="col-md-4">
             <FeatureCards LinkIcon="fa-solid fa-qrcode" title="Attendance Management" desc="Biometric / manual / QR / app-based tracking + auto reports"/>
         </div>
@@ -42,6 +42,9 @@ export default function Features() {
 
         <div className="col-md-4">
             <FeatureCards LinkIcon="fa-regular fa-comments" title="Communication" desc="SMS / Email / App push / Notice board & many more"/>
+        </div>
+        <div>
+            <button className="btn"><u>See All Features...</u></button>
         </div>
 
       </div>
