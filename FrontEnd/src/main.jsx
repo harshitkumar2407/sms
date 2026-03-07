@@ -7,8 +7,8 @@ import Navbar from './component/navbar.jsx'
 createRoot(document.getElementById('root')).render(
   // <StrictMode>
   <>
-  <Navbar />
+    <Navbar />
     <App />
-    </>
+  </>
   // </StrictMode>,
 )

@@ -31,7 +31,7 @@ export default function Navbar() {
         <a href="#">Pricing</a>
         <a href="#">About Us</a>
         <div className="nav-buttons">
-          <button className="btn-login">Login</button>
+          <button className="btn btn-primary">Login</button>
           <button className="btn-signup">Sign Up</button>
         </div>
       </div>
