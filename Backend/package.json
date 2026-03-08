@@ -1,5 +1,9 @@
 {
   "dependencies": {
-    "gitignore": "^0.7.0"
+    "expres": "^0.0.5",
+    "express": "^5.2.1",
+    "gitignore": "^0.7.0",
+    "mongoose": "^9.2.4",
+    "nodemon": "^3.1.14"
   }
 }
